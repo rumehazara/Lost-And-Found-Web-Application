@@ -1,74 +1,111 @@
-# Lost and Found Information System
+# Lost and Found Web Application
 
-The Lost and Found Information System comprises two modules: Public and Management sites.
+A web-based Lost and Found Management System developed using **PHP, MySQL, HTML, CSS, JavaScript, and Bootstrap**. The application allows users to report lost and found items while enabling administrators to efficiently manage item records.
 
-## Management Site
-Accessible only to system administrators and staff, it requires valid credentials for access. Administrators manage system data, including user lists, categories, items, and system information. Staff members have limited permissions. Additionally, the management site enables dynamic updates to select public site content.
+---
 
-## Public Site
-Visitors can explore published unclaimed items, view various page content, and send inquiries or concerns. The posted item list can be filtered by category for easy navigation.
-This web application simplifies lost and found item management, enhancing user experience and efficiency.
+## Project Overview
 
-## Features and Functionalities
+The system provides a centralized platform for reporting, searching, and managing lost and found items. Users can submit reports with item details and images, while administrators can review and manage all reports through an admin dashboard.
 
-### Management
+---
 
-- **Login and Logout**
-- **Dashboard**
-- **List Summary**
-- **Image Slider**
-- **Category Management**
-  - Add New Category
-  - List All Categories
-  - View Category Details
-  - Update Category Details
-  - Delete Category
-- **Item Management**
-  - Add New Item
-  - List All Items
-  - View Item Details
-  - Update Item Details
-  - Delete Item
-- **User Management**
-  - Add New User
-  - List All Users
-  - Update User Details
-  - Delete User
-- **Messages Management**
-  - List All Messages/Inquiries
-  - Read Message Details
-  - Delete Message
-- **Page Management**
-  - Home Page Content
-  - "About Us" Content
-  - Update Contact Information
-  - Update Account Details
-  - Update System Information
+## Features
 
-### Public Site
+- User Registration & Login
+- Report Lost Items
+- Report Found Items
+- Upload Item Images
+- Search Lost & Found Items
+- Admin Dashboard
+- Manage Users
+- Manage Categories
+- Responsive User Interface
+- Secure Database Storage using MySQL
 
-- **Home Page**
-- **List All Published Lost and Found Items**
-- **Filter Lost and Found Item List by Category**
-- **Post an Item that has been found (subject to approval)**
-- **"About Us" Page**
-- **Contact Information Page**
-- **Send Message**
+---
 
-### How To Run ?
+## Technologies Used
 
-**Requirements:**
-1. Download and install a local web server like XAMPP.
+- PHP
+- MySQL
+- HTML5
+- CSS3
+- JavaScript
+- Bootstrap
+- XAMPP
 
-**System Installation/Setup:**
-1. Launch XAMPP and start both Apache and MySQL services.
-2. Download the source code zip file.
-3. Extract the contents of the downloaded zip file.
-4. Copy the extracted source code folder and paste it into the "htdocs" directory of XAMPP.
-5. Open a web browser and access PHPMyAdmin by entering this address: http://localhost/phpmyadmin.
-6. In PHPMyAdmin, create a new database and name it "lfis_db."
-7. Import the provided SQL file, which can be found as "lfis_db.sql" in the database folder.
-8. Finally, open the Lost and Found Information System in your web browser by visiting this address: http://localhost/php-lfis/.
+---
 
-Following these steps will set up the system for you to run and use.
+## My Contributions
 
+This project was customized and enhanced as part of my B.Tech mini project.
+
+### Changes and Enhancements I Made
+
+- Customized the user interface and project structure.
+- Configured the project using XAMPP and MySQL.
+- Modified the database configuration.
+- Improved page layouts and navigation.
+- Updated forms for reporting lost and found items.
+- Added and organized project documentation.
+- Tested the application and fixed functionality issues.
+- Prepared the project for academic submission and GitHub.
+
+---
+
+## Installation
+
+1. Clone the repository.
+
+```bash
+git clone https://github.com/rumehazara/Lost-And-Found-Web-Application.git
+```
+
+2. Copy the project into:
+
+```
+C:\xampp\htdocs\
+```
+
+3. Start Apache and MySQL using XAMPP.
+
+4. Import the SQL database into phpMyAdmin.
+
+5. Open your browser:
+
+```
+http://localhost/php-lfis
+```
+
+---
+
+## Future Improvements
+
+- Email notifications
+- QR code support
+- Mobile responsive enhancements
+- AI-based image matching
+- Real-time chat between finder and owner
+
+---
+
+## Project Screenshots
+
+(Add screenshots here)
+
+---
+
+## Author
+
+**Rumeha Zara**
+
+B.Tech Computer Science Engineering
+
+Anurag Engineering College
+
+---
+
+## Acknowledgement
+
+This project was developed as an academic project and is based on an open-source Lost and Found Management System, with customizations, configuration, documentation, interface improvements, and additional enhancements made by me.
